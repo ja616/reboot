@@ -1,0 +1,19 @@
+# Ignore Python caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+
+# Ignore model weights and local DBs
+models/
+chroma_db/
+*.bin
+*.pt
+*.safetensors
+*.sqlite3
+
+# Ignore system files
+.DS_Store
+.env
